@@ -104,6 +104,7 @@ void gameover(){
 	cout<<"\t\t-------- Game Over -------"<<endl;
 	cout<<"\t\t--------------------------"<<endl<<endl;
 	cout<<"\t\tPress any key to go back to menu.";
+	cout<<"\t\coded by Darshan Bhandary.";
 	getch();
 }
 void updateScore(){
@@ -120,6 +121,7 @@ void instructions(){
 	cout<<"\n Press 'd' to move right";
 	cout<<"\n Press 'escape' to exit";
 	cout<<"\n\nPress any key to go back to menu";
+	cout<<"\t\coded by Darshan Bhandary.";
 	getch();
 }
 
@@ -213,6 +215,7 @@ int main()
 		gotoxy(10,10); cout<<"2. Instructions";	 
 		gotoxy(10,11); cout<<"3. Quit";
 		gotoxy(10,13); cout<<"Select option: ";
+		cout<<"\t\coded by Darshan Bhandary.";
 		char op = getche();
 		
 		if( op=='1') play();
